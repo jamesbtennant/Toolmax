@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40E1CCF821DD90C300BCE6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CCF721DD90C300BCE6D4 /* AppDelegate.swift */; };
+		40E1CCFA21DD90C300BCE6D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CCF921DD90C300BCE6D4 /* GameScene.sks */; };
+		40E1CCFC21DD90C300BCE6D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CCFB21DD90C300BCE6D4 /* Actions.sks */; };
+		40E1CCFE21DD90C300BCE6D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CCFD21DD90C300BCE6D4 /* GameScene.swift */; };
+		40E1CD0021DD90C300BCE6D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CCFF21DD90C300BCE6D4 /* GameViewController.swift */; };
+		40E1CD0321DD90C300BCE6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CD0121DD90C300BCE6D4 /* Main.storyboard */; };
+		40E1CD0521DD90C400BCE6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CD0421DD90C400BCE6D4 /* Assets.xcassets */; };
+		40E1CD0821DD90C400BCE6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CD0621DD90C400BCE6D4 /* LaunchScreen.storyboard */; };
+		40E1CD1321DD90C400BCE6D4 /* Toolmax_new_control_ideaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CD1221DD90C400BCE6D4 /* Toolmax_new_control_ideaTests.swift */; };
+		40E1CD1E21DD90C400BCE6D4 /* Toolmax_new_control_ideaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CD1D21DD90C400BCE6D4 /* Toolmax_new_control_ideaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E1CD0F21DD90C400BCE6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E1CCEC21DD90C300BCE6D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1CCF321DD90C300BCE6D4;
+			remoteInfo = "Toolmax new control idea";
+		};
+		40E1CD1A21DD90C400BCE6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E1CCEC21DD90C300BCE6D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1CCF321DD90C300BCE6D4;
+			remoteInfo = "Toolmax new control idea";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40E1CCF421DD90C300BCE6D4 /* Toolmax new control idea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toolmax new control idea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1CCF721DD90C300BCE6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40E1CCF921DD90C300BCE6D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		40E1CCFB21DD90C300BCE6D4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		40E1CCFD21DD90C300BCE6D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		40E1CCFF21DD90C300BCE6D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		40E1CD0221DD90C300BCE6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40E1CD0421DD90C400BCE6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E1CD0721DD90C400BCE6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40E1CD0921DD90C400BCE6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1CD0E21DD90C400BCE6D4 /* Toolmax new control ideaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toolmax new control ideaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1CD1221DD90C400BCE6D4 /* Toolmax_new_control_ideaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolmax_new_control_ideaTests.swift; sourceTree = "<group>"; };
+		40E1CD1421DD90C400BCE6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1CD1921DD90C400BCE6D4 /* Toolmax new control ideaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toolmax new control ideaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1CD1D21DD90C400BCE6D4 /* Toolmax_new_control_ideaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolmax_new_control_ideaUITests.swift; sourceTree = "<group>"; };
+		40E1CD1F21DD90C400BCE6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E1CCF121DD90C300BCE6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CD0B21DD90C400BCE6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CD1621DD90C400BCE6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E1CCEB21DD90C300BCE6D4 = {
+			isa = PBXGroup;
+			children = (
+				40E1CCF621DD90C300BCE6D4 /* Toolmax new control idea */,
+				40E1CD1121DD90C400BCE6D4 /* Toolmax new control ideaTests */,
+				40E1CD1C21DD90C400BCE6D4 /* Toolmax new control ideaUITests */,
+				40E1CCF521DD90C300BCE6D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E1CCF521DD90C300BCE6D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CCF421DD90C300BCE6D4 /* Toolmax new control idea.app */,
+				40E1CD0E21DD90C400BCE6D4 /* Toolmax new control ideaTests.xctest */,
+				40E1CD1921DD90C400BCE6D4 /* Toolmax new control ideaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E1CCF621DD90C300BCE6D4 /* Toolmax new control idea */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CCF721DD90C300BCE6D4 /* AppDelegate.swift */,
+				40E1CCF921DD90C300BCE6D4 /* GameScene.sks */,
+				40E1CCFB21DD90C300BCE6D4 /* Actions.sks */,
+				40E1CCFD21DD90C300BCE6D4 /* GameScene.swift */,
+				40E1CCFF21DD90C300BCE6D4 /* GameViewController.swift */,
+				40E1CD0121DD90C300BCE6D4 /* Main.storyboard */,
+				40E1CD0421DD90C400BCE6D4 /* Assets.xcassets */,
+				40E1CD0621DD90C400BCE6D4 /* LaunchScreen.storyboard */,
+				40E1CD0921DD90C400BCE6D4 /* Info.plist */,
+			);
+			path = "Toolmax new control idea";
+			sourceTree = "<group>";
+		};
+		40E1CD1121DD90C400BCE6D4 /* Toolmax new control ideaTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CD1221DD90C400BCE6D4 /* Toolmax_new_control_ideaTests.swift */,
+				40E1CD1421DD90C400BCE6D4 /* Info.plist */,
+			);
+			path = "Toolmax new control ideaTests";
+			sourceTree = "<group>";
+		};
+		40E1CD1C21DD90C400BCE6D4 /* Toolmax new control ideaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CD1D21DD90C400BCE6D4 /* Toolmax_new_control_ideaUITests.swift */,
+				40E1CD1F21DD90C400BCE6D4 /* Info.plist */,
+			);
+			path = "Toolmax new control ideaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E1CCF321DD90C300BCE6D4 /* Toolmax new control idea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1CD2221DD90C400BCE6D4 /* Build configuration list for PBXNativeTarget "Toolmax new control idea" */;
+			buildPhases = (
+				40E1CCF021DD90C300BCE6D4 /* Sources */,
+				40E1CCF121DD90C300BCE6D4 /* Frameworks */,
+				40E1CCF221DD90C300BCE6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toolmax new control idea";
+			productName = "Toolmax new control idea";
+			productReference = 40E1CCF421DD90C300BCE6D4 /* Toolmax new control idea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40E1CD0D21DD90C400BCE6D4 /* Toolmax new control ideaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1CD2521DD90C400BCE6D4 /* Build configuration list for PBXNativeTarget "Toolmax new control ideaTests" */;
+			buildPhases = (
+				40E1CD0A21DD90C400BCE6D4 /* Sources */,
+				40E1CD0B21DD90C400BCE6D4 /* Frameworks */,
+				40E1CD0C21DD90C400BCE6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1CD1021DD90C400BCE6D4 /* PBXTargetDependency */,
+			);
+			name = "Toolmax new control ideaTests";
+			productName = "Toolmax new control ideaTests";
+			productReference = 40E1CD0E21DD90C400BCE6D4 /* Toolmax new control ideaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40E1CD1821DD90C400BCE6D4 /* Toolmax new control ideaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1CD2821DD90C400BCE6D4 /* Build configuration list for PBXNativeTarget "Toolmax new control ideaUITests" */;
+			buildPhases = (
+				40E1CD1521DD90C400BCE6D4 /* Sources */,
+				40E1CD1621DD90C400BCE6D4 /* Frameworks */,
+				40E1CD1721DD90C400BCE6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1CD1B21DD90C400BCE6D4 /* PBXTargetDependency */,
+			);
+			name = "Toolmax new control ideaUITests";
+			productName = "Toolmax new control ideaUITests";
+			productReference = 40E1CD1921DD90C400BCE6D4 /* Toolmax new control ideaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E1CCEC21DD90C300BCE6D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "James Tennant";
+				TargetAttributes = {
+					40E1CCF321DD90C300BCE6D4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					40E1CD0D21DD90C400BCE6D4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 40E1CCF321DD90C300BCE6D4;
+					};
+					40E1CD1821DD90C400BCE6D4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 40E1CCF321DD90C300BCE6D4;
+					};
+				};
+			};
+			buildConfigurationList = 40E1CCEF21DD90C300BCE6D4 /* Build configuration list for PBXProject "Toolmax new control idea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40E1CCEB21DD90C300BCE6D4;
+			productRefGroup = 40E1CCF521DD90C300BCE6D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E1CCF321DD90C300BCE6D4 /* Toolmax new control idea */,
+				40E1CD0D21DD90C400BCE6D4 /* Toolmax new control ideaTests */,
+				40E1CD1821DD90C400BCE6D4 /* Toolmax new control ideaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E1CCF221DD90C300BCE6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CD0321DD90C300BCE6D4 /* Main.storyboard in Resources */,
+				40E1CCFA21DD90C300BCE6D4 /* GameScene.sks in Resources */,
+				40E1CD0521DD90C400BCE6D4 /* Assets.xcassets in Resources */,
+				40E1CD0821DD90C400BCE6D4 /* LaunchScreen.storyboard in Resources */,
+				40E1CCFC21DD90C300BCE6D4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CD0C21DD90C400BCE6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CD1721DD90C400BCE6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E1CCF021DD90C300BCE6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CCFE21DD90C300BCE6D4 /* GameScene.swift in Sources */,
+				40E1CD0021DD90C300BCE6D4 /* GameViewController.swift in Sources */,
+				40E1CCF821DD90C300BCE6D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CD0A21DD90C400BCE6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CD1321DD90C400BCE6D4 /* Toolmax_new_control_ideaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CD1521DD90C400BCE6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CD1E21DD90C400BCE6D4 /* Toolmax_new_control_ideaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E1CD1021DD90C400BCE6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1CCF321DD90C300BCE6D4 /* Toolmax new control idea */;
+			targetProxy = 40E1CD0F21DD90C400BCE6D4 /* PBXContainerItemProxy */;
+		};
+		40E1CD1B21DD90C400BCE6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1CCF321DD90C300BCE6D4 /* Toolmax new control idea */;
+			targetProxy = 40E1CD1A21DD90C400BCE6D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40E1CD0121DD90C300BCE6D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E1CD0221DD90C300BCE6D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40E1CD0621DD90C400BCE6D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E1CD0721DD90C400BCE6D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40E1CD2021DD90C400BCE6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40E1CD2121DD90C400BCE6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E1CD2321DD90C400BCE6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toolmax new control idea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tennantjamesb.Toolmax-new-control-idea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40E1CD2421DD90C400BCE6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toolmax new control idea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tennantjamesb.Toolmax-new-control-idea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40E1CD2621DD90C400BCE6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toolmax new control ideaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tennantjamesb.Toolmax-new-control-ideaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toolmax new control idea.app/Toolmax new control idea";
+			};
+			name = Debug;
+		};
+		40E1CD2721DD90C400BCE6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toolmax new control ideaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tennantjamesb.Toolmax-new-control-ideaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toolmax new control idea.app/Toolmax new control idea";
+			};
+			name = Release;
+		};
+		40E1CD2921DD90C400BCE6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toolmax new control ideaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tennantjamesb.Toolmax-new-control-ideaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toolmax new control idea";
+			};
+			name = Debug;
+		};
+		40E1CD2A21DD90C400BCE6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toolmax new control ideaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tennantjamesb.Toolmax-new-control-ideaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toolmax new control idea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E1CCEF21DD90C300BCE6D4 /* Build configuration list for PBXProject "Toolmax new control idea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CD2021DD90C400BCE6D4 /* Debug */,
+				40E1CD2121DD90C400BCE6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1CD2221DD90C400BCE6D4 /* Build configuration list for PBXNativeTarget "Toolmax new control idea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CD2321DD90C400BCE6D4 /* Debug */,
+				40E1CD2421DD90C400BCE6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1CD2521DD90C400BCE6D4 /* Build configuration list for PBXNativeTarget "Toolmax new control ideaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CD2621DD90C400BCE6D4 /* Debug */,
+				40E1CD2721DD90C400BCE6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1CD2821DD90C400BCE6D4 /* Build configuration list for PBXNativeTarget "Toolmax new control ideaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CD2921DD90C400BCE6D4 /* Debug */,
+				40E1CD2A21DD90C400BCE6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E1CCEC21DD90C300BCE6D4 /* Project object */;
+}
