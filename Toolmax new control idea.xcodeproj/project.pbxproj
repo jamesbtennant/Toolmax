@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40450B8F21E10B1100648D77 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40450B8E21E10B1100648D77 /* intro.mp4 */; };
+		407492A621FD46A5009AF887 /* Toolmax1-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 407492A421FD46A5009AF887 /* Toolmax1-Regular.ttf */; };
+		407492A721FD46A5009AF887 /* Toolmax1Color-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 407492A521FD46A5009AF887 /* Toolmax1Color-Regular.ttf */; };
 		40E1CCF821DD90C300BCE6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CCF721DD90C300BCE6D4 /* AppDelegate.swift */; };
 		40E1CCFA21DD90C300BCE6D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CCF921DD90C300BCE6D4 /* GameScene.sks */; };
 		40E1CCFC21DD90C300BCE6D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CCFB21DD90C300BCE6D4 /* Actions.sks */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40450B8E21E10B1100648D77 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = intro.mp4; path = ../../materials/intro.mp4; sourceTree = "<group>"; };
+		407492A421FD46A5009AF887 /* Toolmax1-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Toolmax1-Regular.ttf"; path = "../../materials/Toolmax1-Regular.ttf"; sourceTree = "<group>"; };
+		407492A521FD46A5009AF887 /* Toolmax1Color-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Toolmax1Color-Regular.ttf"; path = "../../materials/Toolmax1Color-Regular.ttf"; sourceTree = "<group>"; };
 		40E1CCF421DD90C300BCE6D4 /* Toolmax new control idea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toolmax new control idea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E1CCF721DD90C300BCE6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E1CCF921DD90C300BCE6D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -87,6 +93,9 @@
 				40E1CD1121DD90C400BCE6D4 /* Toolmax new control ideaTests */,
 				40E1CD1C21DD90C400BCE6D4 /* Toolmax new control ideaUITests */,
 				40E1CCF521DD90C300BCE6D4 /* Products */,
+				40450B8E21E10B1100648D77 /* intro.mp4 */,
+				407492A421FD46A5009AF887 /* Toolmax1-Regular.ttf */,
+				407492A521FD46A5009AF887 /* Toolmax1Color-Regular.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,11 +247,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407492A721FD46A5009AF887 /* Toolmax1Color-Regular.ttf in Resources */,
 				40E1CD0321DD90C300BCE6D4 /* Main.storyboard in Resources */,
 				40E1CCFA21DD90C300BCE6D4 /* GameScene.sks in Resources */,
+				40450B8F21E10B1100648D77 /* intro.mp4 in Resources */,
 				40E1CD0521DD90C400BCE6D4 /* Assets.xcassets in Resources */,
 				40E1CD0821DD90C400BCE6D4 /* LaunchScreen.storyboard in Resources */,
 				40E1CCFC21DD90C300BCE6D4 /* Actions.sks in Resources */,
+				407492A621FD46A5009AF887 /* Toolmax1-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY7ZH4XP7L;
 				INFOPLIST_FILE = "Toolmax new control idea/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HY7ZH4XP7L;
 				INFOPLIST_FILE = "Toolmax new control idea/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
